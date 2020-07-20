@@ -7,6 +7,7 @@ roster = {}
   end
 
   def school
+    @school
   end
 
 end
