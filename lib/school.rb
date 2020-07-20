@@ -23,7 +23,7 @@ ROSTER = {}
   end
 
   def sort
-    roster.sort!
+    roster.sort_by
   end
 
 end
