@@ -1,9 +1,6 @@
 class School
 
-  attr_accessor :school
-  attr_reader
-
-  def initialize(school)
+def initialize(school)
     @school = school
   end
 
