@@ -11,6 +11,8 @@ ROSTER = {}
   end
 
   def add_student(student, grade)
+    @student = student
+    @grade = grade
     ROSTER << student[grade]
   end
 
